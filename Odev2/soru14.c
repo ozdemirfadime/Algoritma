@@ -8,7 +8,7 @@ int main()
     scanf("%d",&sicaklik);
     if(sicaklik<0)
     printf("katı");
-    if(sicaklik >= 0 || sicaklik<100)
+    if(sicaklik >= 0 && sicaklik<100)
     printf("sıvı");
     else
     {

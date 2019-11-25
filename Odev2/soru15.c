@@ -17,30 +17,29 @@ int main()
     printf("mesafe giriniz");
     scanf("%d",&mesafe);
     if(mevsim == 'Y')
-    {   if(mesafe == 100)
-    {
+    {   
         if((hiz >=1 && hiz<=50) )
-        yakit=10;
+        yakit=(10*mesafe)/100;
         else if(hiz >=51 && hiz <=100)
-        yakit= 7.5;
+        yakit= (7.5*mesafe)/100;
         else if (hiz >=101 && hiz <=150)
         {
-           yakit=9;
+           yakit=(9*mesafe)/100;
         }
-     }}
+     }
     else if(mevsim == 'K'){
          if(mesafe =100)
         {      
         if(hiz >=1 && hiz<=50) 
-        { yakit=10+(10*0.05);
+        { yakit=(10*mesafe)/100+((10*mesafe)/100)*0,05;
         }
         else if(hiz >=51 && hiz<=100)
        { 
-           yakit= 7.5+(7.5*0.05);
+           yakit= ((7.5*mesafe)/100)+((7.5*mesafe)/100)*0,05;
        }
         else if(hiz >=101 && hiz<=150)
         {
-           yakit=9+(9*0.05);
+           yakit=(9*mesafe)/100+((9*mesafe)/100)*0,05;
         }
 
          }
