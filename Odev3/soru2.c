@@ -2,13 +2,14 @@
 #include<stdio.h>
 int main(){
     int sayi;
-    int kat =(sayi*3)+4;
-    printf("sayi girniz %d",&sayi);
-    int kat=(sayi*3)+4;
-    for(int i=1;i<sayi;i++){
-    if(kat%4=0)
+    
+    printf("sayi girniz ");
+    scanf("%d",&sayi);
+    for(int i=0;i<sayi;i++){
+    int kat =(i*3)+4;
+    if(kat%4==0)
     {
-        printf("sayı %d \n",sayi);
+        printf("%d \n",i);
     }
 
 }}

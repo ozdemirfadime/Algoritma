@@ -3,9 +3,9 @@
 int main(){
     int toplam=0;
     int i;
-    for(i=1000;i=<5000;i++)
+    for(i=1000;i<5000;i++)
     {
-        if((i%7 = 0) && (i%5 != 0))
+        if((i%7 ==0) && (i%5 != 0))
         toplam+=i;
     }
     printf("toplam %d",toplam);
