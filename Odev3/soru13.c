@@ -21,18 +21,18 @@ int main()
     if(aylar[secim]=='S'){
       for(int i=0 ; i<28; i++){
         printf("::gun sayisi kadar sicaklik giriniz:");
-                 scanf("%d",&sicaklik); 
-                 toplam=toplam+sicaklik;
+         scanf("%d",&sicaklik); 
+          toplam=toplam+sicaklik;
    
    }
    sonuc = toplam/28;
      
  }
- else{
+   else{
    for(int i=0 ; i<3; i++){
         printf("::gun sayisi kadar sicaklik giriniz:");
-                 scanf("%d",&sicaklik); 
-                 toplam=toplam+sicaklik;
+        scanf("%d",&sicaklik); 
+        toplam=toplam+sicaklik;
    
    }
     sonuc = toplam/3;
